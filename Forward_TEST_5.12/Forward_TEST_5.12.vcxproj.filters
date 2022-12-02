@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{cadda958-061e-455c-b82d-beae7f44184f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{a3df2a01-649d-499c-8f59-bdb9ca048df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\ShaderSource">
+      <UniqueIdentifier>{018463e9-5aff-4d4d-93cc-789786286e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Keys">
+      <UniqueIdentifier>{5ba5e96c-4e3e-4c59-a4bd-e10061d29f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Line">
+      <UniqueIdentifier>{a0c41c87-1913-4443-ad39-fd42fa4fef53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSource.h">
+      <Filter>Shader\ShaderSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Line</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Keys.h">
+      <Filter>Keys</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Line</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
